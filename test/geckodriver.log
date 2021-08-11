@@ -123,3 +123,27 @@ console.warn: services.settings: main/partitioning-exempt-urls sync interrupted 
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1628614698682	geckodriver	INFO	Listening on 127.0.0.1:49202
+1628614698690	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/4h/kktp20rn5hl_6tc9c8593lj00000gn/T/rust_mozprofileNp6ShI"
+1628614699149	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/4h/kktp20rn5hl_6tc9c8593lj00000gn/T/rust_mozprofileNp6ShI/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1628614700490	Marionette	INFO	Listening on port 49211
+1628614700576	Marionette	WARN	TLS certificate errors will be ignored for this session
+1628614700883	Marionette	INFO	Stopped listening on port 49211
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1628614938758	geckodriver	INFO	Listening on 127.0.0.1:49281
+1628614939774	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/4h/kktp20rn5hl_6tc9c8593lj00000gn/T/rust_mozprofile631HCJ"
+1628614940331	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/4h/kktp20rn5hl_6tc9c8593lj00000gn/T/rust_mozprofile631HCJ/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+1628614941603	Marionette	INFO	Listening on port 49292
+1628614941677	Marionette	WARN	TLS certificate errors will be ignored for this session
+1628614941998	Marionette	INFO	Stopped listening on port 49292
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
